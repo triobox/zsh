@@ -8,8 +8,10 @@ ZSH=$HOME/dotfiles/zsh
 ZSH_THEME="arrow"
 #ZSH_THEME="robbyrussell"
 
-# Set tmux Only autostart once
-ZSH_TMUX_AUTOSTART="true"
+# Set autostart tmux 
+#ZSH_TMUX_AUTOSTART="true"
+
+# Set ls colorized
 DISABLE_LS_COLORS="true"
 
 # Which plugins would you like to load? (plugins can be found in /plugins/*)
