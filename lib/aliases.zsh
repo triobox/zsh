@@ -47,4 +47,7 @@ alias tmuxl="tmux list-sessions"
 alias myzsh="vim $ZSH/zshrc"
 #alias myzsh="vim ~/.zshrc"
 
+alias crysetup="cryptsetup --verbose -c aes-cbc-essiv:sha256 --verify-passphrase luksFormat"
+alias cryopen="cryptsetup luksOpen"
+
 
